@@ -2,12 +2,6 @@ const path = require('path');
 var htmlWebpackPlugin = require('html-webpack-plugin');
 const webpack = require('webpack');
 
-
-//定义了一些文件夹的路径
-//const ROOT_PATH = path.resolve(__dirname);
-//const APP_PATH = path.resolve(ROOT_PATH, 'app');
-//const BUILD_PATH = path.resolve(ROOT_PATH, 'build');
-
 module.exports = {
     //实现刷新浏览器webpack-hot-middleware/client?noInfo=true&reload=true 是必填的
     entry: ['webpack-hot-middleware/client?noInfo=true&reload=true' , "./src/main"],
